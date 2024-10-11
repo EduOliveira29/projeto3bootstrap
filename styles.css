@@ -1,0 +1,71 @@
+:root {
+    --cor-principal: blue;
+    --cor-secundaria: #fff;
+}
+
+body {
+    font-family:  "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: var(--cor-principal);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-bandas .nav-link.active:hover {
+    color: var(--cor-secundaria);
+}
+
+.navbar-brand {
+    font-family: "Pacifico", cursive;
+}
+
+.navbar-toggler {
+    background-color: var(--cor-secundaria);
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-evento {
+    background-color: var(--cor-secundaria);
+}
+
+.text-colored {
+    color: var(--cor-principal);
+}
+
+.nav-bandas .nav-link.active, 
+#compre-seu-ingresso button{
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+}
+
+.nav-bandas .nav-link:hover {
+    color: var(--cor-principal);
+}
+
+.socal-links, li {
+    list-style: none;
+    display: inline;
+}
+
+.socal-links,a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    
+}
