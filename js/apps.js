@@ -1,7 +1,5 @@
 $(document).ready(function () {
-    $("#nome").mask('Teste da silva oliveira', {
-        placeholder: 'Nome completo'
-    });
+    
 
     $("#telefone").mask('(00) 00000-0000', {
         placeholder: ''
